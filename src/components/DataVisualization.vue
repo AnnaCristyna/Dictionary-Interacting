@@ -1,5 +1,5 @@
 <template>
-  <div>{{ dataToView }}</div>
+  <div>{{ this.dataToView }}</div>
 </template>
 
 <style></style>

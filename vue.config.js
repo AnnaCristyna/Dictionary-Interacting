@@ -14,4 +14,7 @@ module.exports = {
       rtlSupport: false,
     },
   },
+
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/Interactive-Dictionary/" : "/",
 };
