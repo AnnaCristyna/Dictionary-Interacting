@@ -1,28 +1,36 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <q-layout view="lHh Lpr lFf">
+    <Header />
+    <q-page-container>
+      <DataVisualization />
+      <div class="flex-row absolute-bottom">
+        <Subtitle />
+        <ExportData />
+      </div>
+    </q-page-container>
+  </q-layout>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/Header.vue";
+import ExportData from "./components/ExportData.vue";
+import Subtitle from "./components/Subtitle.vue";
+import DataVisualization from "./components/DataVisualization.vue";
 
 export default {
-  name: 'App',
+  name: "LayoutDefault",
+
   components: {
-    HelloWorld
-  }
-}
+    Header,
+    ExportData,
+    Subtitle,
+    DataVisualization,
+  },
+
+  data() {
+    return {};
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
