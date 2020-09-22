@@ -1,7 +1,7 @@
 <template>
   <div class="flex-row col-xs-6">
     <q-input class="input" borderless v-model="input" label="Pesquisar" />
-    <q-btn class="btn" icon="search" v-on:click="handleSearch(input)" />
+    <q-btn class="btn" icon="search" v-on:click="handleInput(input)" />
   </div>
 </template>
 
@@ -14,38 +14,35 @@
 </style>
 
 <script>
-// import axios from "axios";
 import { bus } from "../main";
-const listaPalavras = [
-  { id: 1, valor: "casa", relacionados: ["teto", "chão", "estrutura"] },
-  { id: 2, valor: "garrafa", relacionados: ["bebida", "água", "sede"] },
-];
+import json from "../json/synonyms.json";
+
 export default {
   name: "Input",
   props: {
-    dataToView: {
-      type: Object,
+    wordForChart: {
+      type: String,
+    },
+    wordForMean: {
+      type: String,
     },
   },
+  data() {
+    return { json: json };
+  },
   methods: {
-    handleSearch(input) {
-      console.log(input);
-      const foundData = listaPalavras.find((item) => input === item.valor);
-      console.log(foundData);
-      this.dataToView = foundData;
-      bus.$emit("changeChart", foundData);
+    handleInput(input) {
+      const word = input.toUpperCase();
+      // const wordPoint = word + ".";
+      // const data = json.nodes.filter((item) => item.name === wordPoint);
+      // console.log(input);
+      if (input) {
+        this.wordForView = input;
+        bus.$emit("wordForChart", input);
+        this.wordForMean = word;
+        bus.$emit("wordForMean", word);
+      }
     },
   },
 };
-
-// // axios // .get(`http://dicionario-aberto.net/search-json/palavra/random`) //
-// .then((response) => { // // JSON responses are automatically parsed. //
-// console.log(response.data); // this.posts = response.data; // }) // .catch((e)
-// => { // this.errors.push(e); // });
-// data() {
-//   return {
-//     posts: [],
-//     errors: [],
-//   };
-// },
 </script>

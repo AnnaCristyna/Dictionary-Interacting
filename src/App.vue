@@ -5,7 +5,6 @@
       <DataVisualization />
       <div class="flex-row absolute-bottom">
         <Subtitle />
-        <ExportData />
       </div>
     </q-page-container>
   </q-layout>
@@ -13,7 +12,7 @@
 
 <script>
 import Header from "./components/Header.vue";
-import ExportData from "./components/ExportData.vue";
+// import ExportData from "./components/ExportData.vue";
 import Subtitle from "./components/Subtitle.vue";
 import DataVisualization from "./components/DataVisualization.vue";
 
@@ -22,7 +21,7 @@ export default {
 
   components: {
     Header,
-    ExportData,
+    // ExportData,
     Subtitle,
     DataVisualization,
   },

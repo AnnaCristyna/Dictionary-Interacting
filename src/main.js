@@ -1,11 +1,9 @@
 import Vue from "vue";
 import App from "./App.vue";
 import "./quasar";
-import axios from "axios";
-
 import { Quasar, QCard, QCardSection } from "quasar";
-Vue.prototype.$http = axios;
 
+export const bus = new Vue();
 Vue.config.productionTip = false;
 
 Vue.use(Quasar, {
@@ -18,5 +16,3 @@ Vue.use(Quasar, {
 new Vue({
   render: (h) => h(App),
 }).$mount("#app");
-
-export const bus = new Vue();
