@@ -11,13 +11,10 @@ Each circles represent a word
 - purple = adverb;
 - brown= verb;
 - pink = noun;
-- others = purple;
+- others = steelblue;
 
 And the links:
 - red = antonym;
 - green = synonym;
 
-
 There is still much to achieve!
-
-
