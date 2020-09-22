@@ -1,6 +1,6 @@
 module.exports = {
   publicPath:
-    process.env.NODE_ENV === "production" ? "/Interactive-Dictionary/" : "/",
+    process.env.NODE_ENV === "production" ? "/Dictionary-Interacting/" : "/",
 
   transpileDependencies: ["quasar"],
   configureWebpack: {
@@ -16,5 +16,5 @@ module.exports = {
   },
 
   publicPath:
-    process.env.NODE_ENV === "production" ? "/Interactive-Dictionary/" : "/",
+    process.env.NODE_ENV === "production" ? "/Dictionary-Interacting/" : "/",
 };

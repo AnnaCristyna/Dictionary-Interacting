@@ -2,7 +2,7 @@
   <q-header elevated class="glossy">
     <div class="header text-white">
       <q-toolbar inset>
-        <q-toolbar-title>Dicionário Interativo</q-toolbar-title>
+        <q-toolbar-title>Dictionary Interactive</q-toolbar-title>
         <Input />
       </q-toolbar>
     </div>

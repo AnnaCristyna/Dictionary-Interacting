@@ -9,14 +9,12 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
-    "axios": "^0.20.0",
     "core-js": "^3.6.5",
     "d3": "^6.1.1",
     "minimist": "^1.2.5",
     "quasar": "^1.0.0",
     "save-svg-as-png": "^1.4.17",
-    "vue": "^2.6.11",
-    "vue-axios-cors": "^1.0.1"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
