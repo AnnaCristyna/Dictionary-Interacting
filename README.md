@@ -7,14 +7,14 @@ The concept of this application is to show the universe in which the searched wo
 
 Legend:  
 Each circles represent a word
-- green = adjective;
-- purple = adverb;
-- brown= verb;
-- pink = noun;
-- others = steelblue;
+- <span style="color:green">green</span> = adjective;
+- <span style="color:purple">purple</span> = adverb;
+- <span style="color:brown">brown</span> = verb;
+- <span style="color:pink">pink</span> = noun;
+- <span style="color:steelblue">steelblue</span> = others;
 
 And the links:
-- red = antonym;
-- green = synonym;
+- <span style="color:red">red</span>  = antonym;
+- <span style="color:green">green</span>  = synonym;
 
 There is still much to achieve!
