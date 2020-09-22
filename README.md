@@ -3,7 +3,7 @@ Application Developed with Vue.js, Quasar and D3.js.
 
 GitHub Pages: https://annacristyna.github.io/Dictionary-Interacting/
 
-The concept of this application is show a the university of which word searched.
+The concept of this application is to show the universe in which the searched word is
 
 Subtitle: 
 Wich circles represent a word
@@ -18,6 +18,6 @@ red = antonym;
 green = synonym;
 
 
-There are many things to accompl
+There is still much to achieve!
 
 
