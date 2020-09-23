@@ -20,8 +20,10 @@ And the links:
 There is still much to achieve!
 -The next steps:
 -
--Show the words
--Show the Meaning of words
--Button to export chart in a png or pdf
--Construct a better data
--Refactoring
+-Show the words;
+-Show the Meaning of words;
+-Button to export chart in a png or pdf;
+-Construct a better data (especially a data in Portuguese);
+-Refactoring;
+-Improve the design;
+-Make a Symbol;
