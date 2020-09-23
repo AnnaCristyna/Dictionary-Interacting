@@ -18,12 +18,13 @@ And the links:
 - <span style="color:green">green</span>  = synonym;
 
 There is still much to achieve!
+
 -The next steps:
 -
--Show the words;
--Show the Meaning of words;
--Button to export chart in a png or pdf;
--Construct a better data (especially a data in Portuguese);
--Refactoring;
--Improve the design;
--Make a Symbol;
+<span> Show the words; </span>
+<span> Show the Meaning of words;</span>
+<span>Button to export chart in a png or pdf;</span>
+<span>Construct a better data (especially a data in Portuguese);</span>
+<span>Refactoring;</span>
+<span>Improve the design;</span>
+<span>Make a Symbol;</span>
