@@ -18,3 +18,10 @@ And the links:
 - <span style="color:green">green</span>  = synonym;
 
 There is still much to achieve!
+-The next steps:
+-
+-Show the words
+-Show the Meaning of words
+-Button to export chart in a png or pdf
+-Construct a better data
+-Refactoring
