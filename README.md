@@ -17,8 +17,7 @@ And the links:
 - <span style="color:red">red</span>  = antonym;
 - <span style="color:green">green</span>  = synonym;
 
-I made a video explaining in Portuguese. You can watch in 2x velocity :)
-[![](http://img.youtube.com/vi/7L5Z8uhMfNo/0.jpg)](http://www.youtube.com/watch?v=7L5Z8uhMfNo "Explaining the app")
+[![I made a video explaining in Portuguese. You can watch in 2x velocity :)](http://img.youtube.com/vi/aZ6fy4hsTkE/0.jpg)](http://www.youtube.com/watch?v=aZ6fy4hsTkE ""Explaining the app"")
 
 The png figure shows the plan and thoughts also in Portuguese:
 ![](/Fluxo-pensamento.png)
