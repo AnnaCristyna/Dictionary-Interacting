@@ -17,14 +17,24 @@ And the links:
 - <span style="color:red">red</span>  = antonym;
 - <span style="color:green">green</span>  = synonym;
 
+I made a video explaining in Portuguese. You can watch in 2x velocity :)
+[![](http://img.youtube.com/vi/7L5Z8uhMfNo/0.jpg)](http://www.youtube.com/watch?v=7L5Z8uhMfNo "Explaining the app")
+
+The png figure shows the plan and thoughts also in Portuguese:
+![](/Fluxo-pensamento.png)
+
+
+And the .fig file is a design template for the app.
+
 There is still much to achieve!
 
--The next steps:
+The next steps:
 -
-<span> Show the words; </span>
-<span> Show the Meaning of words;</span>
-<span>Button to export chart in a png or pdf;</span>
-<span>Construct a better data (especially a data in Portuguese);</span>
-<span>Refactoring;</span>
-<span>Improve the design;</span>
-<span>Make a Symbol;</span>
+
+- Show the words;
+- Show the Meaning of words;
+- Button to export chart in a png or pdf;
+- Construct a better data (especially a data in Portuguese);
+- Refactoring;
+- Improve the design;
+- Make a Symbol;
